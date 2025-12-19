@@ -48,12 +48,12 @@ export default function CertificateReleasePage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-background flex flex-col items-center justify-center p-6 relative overflow-hidden">
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-amber-50/20 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex flex-col items-center justify-center p-6 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-2 h-2 bg-primary/10 rounded-full animate-float"
+            className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -63,6 +63,32 @@ export default function CertificateReleasePage() {
           />
         ))}
       </div>
+
+      {status === "idle" && (
+        <>
+          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-48 md:w-64 lg:w-80 opacity-0 animate-slide-in-left pointer-events-none">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent blur-2xl" />
+              <img
+                src="/images/pema.jpg"
+                alt="Profile"
+                className="relative w-full h-auto object-contain rounded-r-3xl shadow-2xl"
+              />
+            </div>
+          </div>
+
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-48 md:w-64 lg:w-80 opacity-0 animate-slide-in-right pointer-events-none">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-l from-transparent via-amber-100/20 to-transparent blur-2xl" />
+              <img
+                src="/images/cbn.jpeg"
+                alt="Profile"
+                className="relative w-full h-auto object-contain rounded-l-3xl shadow-2xl"
+              />
+            </div>
+          </div>
+        </>
+      )}
 
       {showConfetti && (
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-50">
