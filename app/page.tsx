@@ -66,7 +66,17 @@ export default function CertificateReleasePage() {
 
       {status === "idle" && (
         <>
-          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-48 md:w-64 lg:w-80 opacity-0 animate-slide-in-left pointer-events-none">
+          <div className="
+  absolute
+  left-8 md:left-16 lg:left-24
+  top-1/2
+  -translate-y-1/2
+  w-56 md:w-72 lg:w-80
+  opacity-0
+  animate-slide-in-left
+  pointer-events-none
+">
+
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent blur-2xl" />
 <img
