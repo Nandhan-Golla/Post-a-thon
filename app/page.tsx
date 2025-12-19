@@ -72,7 +72,7 @@ export default function CertificateReleasePage() {
               <img
                 src="/images/pema.jpg"
                 alt="Profile"
-                className="relative w-full h-auto object-contain rounded-r-3xl shadow-2xl"
+                className="relative w-full h-[520px] object-contain rounded-r-3xl shadow-2xl"
               />
             </div>
           </div>
