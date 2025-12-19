@@ -5,7 +5,7 @@ const CERTIFIER_VERSION = "2022-10-26"
 
 export async function POST(request: NextRequest) {
   try {
-    const certifierApiKey = "cfp_omIat4JPukFSP2AEz2Bld5ME1gKHTVQN2uEM"
+    const certifierApiKey = "cfp_ZFgrJzMOHHQbIhMJL45SnEpJlCg8shUvumbI"
 
     if (!certifierApiKey) {
       console.error("[certifier] Missing CERTIFIER_API_KEY")
