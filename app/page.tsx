@@ -79,16 +79,11 @@ export default function CertificateReleasePage() {
 
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent blur-2xl" />
-<img
-  src="/images/about-us.jpg"
-  alt="Profile"
-  className="
-    relative w-full
-    h-[420px] md:h-[520px] lg:h-[650px]
-    object-contain
-    rounded-r-3xl shadow-2xl
-  "
-/>
+              <img
+                src="/images/about-us.jpg"
+                alt="Profile"
+                className="relative w-full h-auto object-contain rounded-l-3xl shadow-2xl"
+              />
 
             </div>
           </div>
