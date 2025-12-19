@@ -92,7 +92,7 @@ export default function CertificateReleasePage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-l from-transparent via-amber-100/20 to-transparent blur-2xl" />
               <img
-                src="/images/cbn.jpeg"
+                src="/images/chandra_babu_profile (1).png"
                 alt="Profile"
                 className="relative w-full h-auto object-contain rounded-l-3xl shadow-2xl"
               />
