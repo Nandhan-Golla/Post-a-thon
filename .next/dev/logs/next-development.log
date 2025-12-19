@@ -1,0 +1,618 @@
+[00:00:00.994] Server  LOG     
+[00:00:00.994] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:00.995] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:00.995] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:00.996] Server  LOG     
+[00:00:00.996] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:00.996] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:00.996] Server  LOG     
+[00:00:01.245] Server  LOG      ✓ Ready in 818ms
+[00:04:08.804] Server  LOG      ○ Compiling / ...
+[00:04:12.304] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:12.470] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function CertificateReleasePage} serverProvidedParams={{...}}>
+                        <CertificateReleasePage params={Promise} searchParams={Promise}>
+                          <main className="min-h-scre...">
+                            <div className="absolute i...">
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "24.007083710774467%"
+-                                 left: "55.9102%"
++                                 top: "0.4676359802426533%"
+-                                 top: "16.4417%"
++                                 animationDelay: "1.1759895096724953s"
++                                 animationDuration: "15.511313900669466s"
+-                                 animation-delay: "1.70157s"
+-                                 animation-duration: "18.1183s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "42.437152448218484%"
+-                                 left: "42.271%"
++                                 top: "52.8812992774134%"
+-                                 top: "95.9566%"
++                                 animationDelay: "1.0770832675022408s"
++                                 animationDuration: "16.488953336877007s"
+-                                 animation-delay: "1.80872s"
+-                                 animation-duration: "23.4915s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "9.593499158779695%"
+-                                 left: "82.0537%"
++                                 top: "72.12980418550038%"
+-                                 top: "16.8834%"
++                                 animationDelay: "4.563801459764523s"
++                                 animationDuration: "17.965892678498328s"
+-                                 animation-delay: "1.66418s"
+-                                 animation-duration: "16.3742s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "65.22101185701217%"
+-                                 left: "46.9196%"
++                                 top: "2.5409092943358025%"
+-                                 top: "20.6391%"
++                                 animationDelay: "4.939441300379221s"
++                                 animationDuration: "19.817804699751022s"
+-                                 animation-delay: "4.25517s"
+-                                 animation-duration: "20.012s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "36.54146018530311%"
+-                                 left: "62.2764%"
++                                 top: "63.50386758855306%"
+-                                 top: "85.3107%"
++                                 animationDelay: "2.6650348105744808s"
++                                 animationDuration: "15.050145590984618s"
+-                                 animation-delay: "0.694187s"
+-                                 animation-duration: "17.0555s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "69.57488335453542%"
+-                                 left: "8.18269%"
++                                 top: "29.09120289502193%"
+-                                 top: "55.2029%"
++                                 animationDelay: "4.900441771631123s"
++                                 animationDuration: "19.484811734034082s"
+-                                 animation-delay: "2.02154s"
+-                                 animation-duration: "21.2933s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "15.664274999519122%"
+-                                 left: "26.3602%"
++                                 top: "51.15730576804515%"
+-                                 top: "8.44045%"
++                                 animationDelay: "3.872124209730696s"
++                                 animationDuration: "17.60167482390351s"
+-                                 animation-delay: "4.61278s"
+-                                 animation-duration: "20.7267s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "58.80792226362001%"
+-                                 left: "70.0904%"
++                                 top: "9.525523169717765%"
+-                                 top: "80.4398%"
++                                 animationDelay: "2.9882336176694535s"
++                                 animationDuration: "18.33786348780453s"
+-                                 animation-delay: "3.36532s"
+-                                 animation-duration: "23.413s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "88.47642168182904%"
+-                                 left: "6.84256%"
++                                 top: "96.13639419390323%"
+-                                 top: "75.2595%"
++                                 animationDelay: "4.928452317127672s"
++                                 animationDuration: "23.75495423762385s"
+-                                 animation-delay: "2.79011s"
+-                                 animation-duration: "24.4074s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "86.90159032150824%"
+-                                 left: "47.1539%"
++                                 top: "23.878431481582595%"
+-                                 top: "64.3257%"
++                                 animationDelay: "4.177022107271934s"
++                                 animationDuration: "19.64126541361815s"
+-                                 animation-delay: "2.23153s"
+-                                 animation-duration: "19.7154s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "85.53692670334685%"
+-                                 left: "94.5127%"
++                                 top: "85.7717569791383%"
+-                                 top: "70.5994%"
++                                 animationDelay: "4.089714324821933s"
++                                 animationDuration: "22.42180295744351s"
+-                                 animation-delay: "1.45816s"
+-                                 animation-duration: "17.2408s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "3.772835675696895%"
+-                                 left: "48.9569%"
++                                 top: "61.31348799120073%"
+-                                 top: "51.9689%"
++                                 animationDelay: "2.254604041092771s"
++                                 animationDuration: "24.60562360703978s"
+-                                 animation-delay: "4.78609s"
+-                                 animation-duration: "17.3819s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "50.210047047774644%"
+-                                 left: "56.1696%"
++                                 top: "17.370716905664175%"
+-                                 top: "31.5801%"
++                                 animationDelay: "0.3485290640111921s"
++                                 animationDuration: "16.997000047699302s"
+-                                 animation-delay: "1.95375s"
+-                                 animation-duration: "24.8508s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "85.72998017486523%"
+-                                 left: "76.4892%"
++                                 top: "1.7538538241568369%"
+-                                 top: "95.9474%"
++                                 animationDelay: "2.3261497357791323s"
++                                 animationDuration: "20.316266992535844s"
+-                                 animation-delay: "0.731934s"
+-                                 animation-duration: "22.7804s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "9.192739824552254%"
+-                                 left: "94.6427%"
++                                 top: "94.7031668330561%"
+-                                 top: "95.642%"
++                                 animationDelay: "0.383884884358357s"
++                                 animationDuration: "24.91081847054317s"
+-                                 animation-delay: "4.63678s"
+-                                 animation-duration: "22.8818s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "72.18183683458811%"
+-                                 left: "88.7942%"
++                                 top: "47.41043132386869%"
+-                                 top: "38.578%"
++                                 animationDelay: "3.495948583381821s"
++                                 animationDuration: "24.599542907072525s"
+-                                 animation-delay: "4.27534s"
+-                                 animation-duration: "19.3505s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "83.47985236704298%"
+-                                 left: "9.54145%"
++                                 top: "50.85116187820672%"
+-                                 top: "30.2463%"
++                                 animationDelay: "0.888157773023418s"
++                                 animationDuration: "17.068176994339776s"
+-                                 animation-delay: "0.483673s"
+-                                 animation-duration: "16.4985s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "88.6687038216486%"
+-                                 left: "49.7952%"
++                                 top: "62.652796060799474%"
+-                                 top: "11.8222%"
++                                 animationDelay: "2.473160168682256s"
++                                 animationDuration: "22.56072654988229s"
+-                                 animation-delay: "0.576749s"
+-                                 animation-duration: "19.9498s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "5.085428904812172%"
+-                                 left: "49.575%"
++                                 top: "84.67607592684004%"
+-                                 top: "70.4336%"
++                                 animationDelay: "2.555609548226741s"
++                                 animationDuration: "22.429045309315995s"
+-                                 animation-delay: "3.3913s"
+-                                 animation-duration: "17.5267s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "53.376969151418294%"
+-                                 left: "17.4236%"
++                                 top: "24.86429257202746%"
+-                                 top: "48.6051%"
++                                 animationDelay: "2.8083236347734624s"
++                                 animationDuration: "23.888359460484793s"
+-                                 animation-delay: "4.41134s"
+-                                 animation-duration: "15.2686s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[00:04:12.827] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:12.827] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:12.828] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766174214957}
+[00:04:19.650] Server  LOG      ✓ Compiled in 701ms
+[00:06:03.103] Server  LOG      ✓ Compiled in 96ms
+[00:06:22.591] Server  LOG      ✓ Compiled in 148ms
+[00:06:38.920] Server  LOG      ✓ Compiled in 227ms
+[00:08:14.219] Server  LOG      ✓ Compiled in 103ms
+[00:13:38.627] Server  LOG      ✓ Compiled in 104ms
+[00:15:19.041] Server  LOG      ✓ Compiled in 213ms
+[00:16:45.471] Server  LOG      ✓ Compiled in 301ms
+[00:18:36.888] Server  LOG      ✓ Compiled in 112ms
+[00:20:05.707] Server  LOG      ✓ Compiled in 146ms
+[00:25:01.453] Server  LOG      ✓ Compiled in 268ms
+[00:25:38.714] Server  LOG      ✓ Compiled in 57ms
+[00:31:08.082] Server  LOG      ✓ Compiled in 205ms
+[00:32:18.415] Server  LOG      ✓ Compiled in 68ms
+[00:33:14.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:15.119] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <ClientPageRoot Component={function CertificateReleasePage} serverProvidedParams={{...}}>
+                        <CertificateReleasePage params={Promise} searchParams={Promise}>
+                          <main className={"min-h-sc..."}>
+                            <div className="absolute i...">
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "12.053141727505523%"
+-                                 left: "23.3185%"
++                                 top: "93.07252916036205%"
+-                                 top: "34.0105%"
++                                 animationDelay: "3.266437853767599s"
++                                 animationDuration: "24.142101572075504s"
+-                                 animation-delay: "4.94474s"
+-                                 animation-duration: "15.194s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "0.1672899979807685%"
+-                                 left: "86.8791%"
++                                 top: "55.35444504665472%"
+-                                 top: "67.199%"
++                                 animationDelay: "0.423825142023434s"
++                                 animationDuration: "15.862216418989654s"
+-                                 animation-delay: "2.16504s"
+-                                 animation-duration: "20.4451s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "61.51226306557957%"
+-                                 left: "31.5001%"
++                                 top: "92.97023291775265%"
+-                                 top: "57.2768%"
++                                 animationDelay: "0.058916473029404504s"
++                                 animationDuration: "24.57214366660456s"
+-                                 animation-delay: "4.55268s"
+-                                 animation-duration: "18.1932s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "20.62583876633569%"
+-                                 left: "69.5449%"
++                                 top: "53.6200080309426%"
+-                                 top: "29.2358%"
++                                 animationDelay: "1.6403078624236462s"
++                                 animationDuration: "20.34538307416956s"
+-                                 animation-delay: "0.47552s"
+-                                 animation-duration: "16.4494s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "44.75109175476292%"
+-                                 left: "73.7823%"
++                                 top: "16.738352953378953%"
+-                                 top: "44.8272%"
++                                 animationDelay: "2.8305803440651296s"
++                                 animationDuration: "18.105996799248977s"
+-                                 animation-delay: "4.4135s"
+-                                 animation-duration: "24.9908s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "48.60105081548809%"
+-                                 left: "22.2591%"
++                                 top: "56.90164129542552%"
+-                                 top: "74.319%"
++                                 animationDelay: "4.653950937864222s"
++                                 animationDuration: "16.760712056137958s"
+-                                 animation-delay: "2.67458s"
+-                                 animation-duration: "18.9444s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "72.27765891526015%"
+-                                 left: "10.8292%"
++                                 top: "77.36431742556734%"
+-                                 top: "62.9277%"
++                                 animationDelay: "1.1868394999920673s"
++                                 animationDuration: "23.053343542329053s"
+-                                 animation-delay: "0.512417s"
+-                                 animation-duration: "15.1159s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "10.027479160205022%"
+-                                 left: "12.8891%"
++                                 top: "77.14021294287389%"
+-                                 top: "44.1666%"
++                                 animationDelay: "2.67698129143195s"
++                                 animationDuration: "23.205610059181485s"
+-                                 animation-delay: "4.93456s"
+-                                 animation-duration: "18.3516s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "3.490106199859988%"
+-                                 left: "27.7089%"
++                                 top: "52.80477245419232%"
+-                                 top: "28.5262%"
++                                 animationDelay: "2.552664311255475s"
++                                 animationDuration: "20.82982607480868s"
+-                                 animation-delay: "1.23246s"
+-                                 animation-duration: "23.7746s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "63.01649468339839%"
+-                                 left: "32.4063%"
++                                 top: "93.91967970933439%"
+-                                 top: "75.1542%"
++                                 animationDelay: "3.1158243462674964s"
++                                 animationDuration: "24.239183084234153s"
+-                                 animation-delay: "0.114682s"
+-                                 animation-duration: "16.6514s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "78.8907376568647%"
+-                                 left: "11.2218%"
++                                 top: "43.49938976446056%"
+-                                 top: "38.7833%"
++                                 animationDelay: "0.30912119522079007s"
++                                 animationDuration: "20.183090112072843s"
+-                                 animation-delay: "1.68781s"
+-                                 animation-duration: "24.1737s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "97.38942916396229%"
+-                                 left: "48.5843%"
++                                 top: "95.62235517476768%"
+-                                 top: "21.3661%"
++                                 animationDelay: "1.0323937080283745s"
++                                 animationDuration: "18.534059051461632s"
+-                                 animation-delay: "1.57174s"
+-                                 animation-duration: "24.3552s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "14.50863236228953%"
+-                                 left: "29.9126%"
++                                 top: "54.75728453332911%"
+-                                 top: "58.3181%"
++                                 animationDelay: "2.544761996862075s"
++                                 animationDuration: "17.71974956513405s"
+-                                 animation-delay: "4.08345s"
+-                                 animation-duration: "15.5006s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "27.009827029513733%"
+-                                 left: "89.2642%"
++                                 top: "25.742223923477958%"
+-                                 top: "48.8406%"
++                                 animationDelay: "1.6799201507846573s"
++                                 animationDuration: "17.34002253046083s"
+-                                 animation-delay: "3.85335s"
+-                                 animation-duration: "15.0068s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "3.2625722579729066%"
+-                                 left: "38.4518%"
++                                 top: "27.441101777810417%"
+-                                 top: "80.8892%"
++                                 animationDelay: "4.157454135650703s"
++                                 animationDuration: "16.117685504719752s"
+-                                 animation-delay: "2.17677s"
+-                                 animation-duration: "16.5526s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "6.825159174471008%"
+-                                 left: "83.0394%"
++                                 top: "86.95517571155021%"
+-                                 top: "38.73%"
++                                 animationDelay: "1.8591753040066172s"
++                                 animationDuration: "22.792328925896385s"
+-                                 animation-delay: "3.745s"
+-                                 animation-duration: "23.4888s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "73.08315203350871%"
+-                                 left: "18.9494%"
++                                 top: "57.079326289333956%"
+-                                 top: "46.1357%"
++                                 animationDelay: "2.798827677657714s"
++                                 animationDuration: "18.587258190494865s"
+-                                 animation-delay: "2.36096s"
+-                                 animation-duration: "19.505s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "32.19178351298565%"
+-                                 left: "50.3736%"
++                                 top: "71.22479378770393%"
+-                                 top: "11.6683%"
++                                 animationDelay: "3.6791463764157917s"
++                                 animationDuration: "18.56208243048714s"
+-                                 animation-delay: "1.87638s"
+-                                 animation-duration: "15.0121s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "45.64226361532532%"
+-                                 left: "30.0393%"
++                                 top: "12.586868545726615%"
+-                                 top: "54.3574%"
++                                 animationDelay: "2.2544527974722346s"
++                                 animationDuration: "22.642750222927415s"
+-                                 animation-delay: "4.2852s"
+-                                 animation-duration: "24.0497s"
+                                }}
+                              >
+                              <div
+                                className="absolute w-2 h-2 bg-blue-400/10 rounded-full animate-float"
+                                style={{
++                                 left: "86.39207398003342%"
+-                                 left: "37.5882%"
++                                 top: "5.822802353651935%"
+-                                 top: "6.3607%"
++                                 animationDelay: "2.3123745006640317s"
++                                 animationDuration: "20.17124293806239s"
+-                                 animation-delay: "1.9912s"
+-                                 animation-duration: "17.4437s"
+                                }}
+                              >
+                            ...
+                    ...
+                  ...
+      ...
+
+[00:33:15.119] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:33:15.119] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:33:15.119] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766175957243}
